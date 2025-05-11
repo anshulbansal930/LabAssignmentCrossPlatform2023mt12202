@@ -1,0 +1,2 @@
+/Users/raghugup/Documents/gitrepo/quicktask_flutter/android/app/.cxx/RelWithDebInfo/2r203v60/x86/CMakeFiles/edit_cache.dir
+/Users/raghugup/Documents/gitrepo/quicktask_flutter/android/app/.cxx/RelWithDebInfo/2r203v60/x86/CMakeFiles/rebuild_cache.dir

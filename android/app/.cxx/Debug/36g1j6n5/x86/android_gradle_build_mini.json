@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/raghugup/Downloads/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/raghugup/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/raghugup/Documents/gitrepo/quicktask_flutter/android/app/.cxx/Debug/36g1j6n5/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/raghugup/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/raghugup/Documents/gitrepo/quicktask_flutter/android/app/.cxx/Debug/36g1j6n5/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
