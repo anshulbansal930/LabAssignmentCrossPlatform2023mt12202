@@ -1,0 +1,83 @@
+Lab Assignment: Flutter App with Back4App for Database Operations and User Authentication
+
+Objective:
+In this lab assignment, students will develop a Flutter application that interacts with Back4App (Parse Server) as the backend. The app will allow users to sign up, log in, and perform CRUD operations (Create, Read, Update, Delete) on a database managed by Back4App. The task is to integrate user authentication and database operations into the Flutter app using Back4App's APIs.
+
+Assignment Overview:
+
+Back4App Setup:
+Sign up for a free account on Back4App.
+Create a new app on Back4App.
+Set up the Parse database on Back4App to store user data and records for the app.
+Use Back4App's APIs for CRUD operations and user authentication.
+
+User Authentication (Login/Signup):
+Implement user authentication in your Flutter app using Back4App's built-in methods (signup, login, password reset).
+Use Back4App's Parse SDK to manage user authentication:
+Allow users to sign up with their username/email and password.
+Allow users to log in and maintain session tokens for subsequent requests.
+Optionally, implement a password reset flow.
+After logging in, the user will be able to interact with the database and perform CRUD operations.
+
+CRUD Operations:
+Use Back4App's Parse SDK to interact with the cloud database and perform CRUD operations.
+Implement the following operations:
+Add a new record: Users should be able to add records (e.g., Name and Age) to the database.
+Display all records: Retrieve and display all the records stored in the database.
+Update a record: Users should be able to update an existing record (e.g., modify Name or Age).
+Delete a record: Allow users to delete a record from the database.
+Ensure that the Age field accepts only numeric values and provides proper error handling (e.g., no non-numeric input allowed).
+Frontend Development (Flutter):
+Build a Flutter app that connects to Back4App via the Parse SDK.
+
+Login Page:
+Design a simple login page where users can enter their username/email and password to log in.
+Display an error message if login fails (e.g., incorrect credentials).
+After successful login, redirect the user to the main page where CRUD operations can be performed.
+
+CRUD Operations UI:
+Display a list of records fetched from the Back4App database.
+Provide input fields for adding new records (Name and Age) and buttons for updating or deleting records.
+Implement form validation to ensure the "Age" field only accepts numeric values.
+
+Presentation:
+Prepare a 2-slide PowerPoint presentation that explains:
+The architecture of the solution (Frontend with Flutter and Backend with Back4App).
+How user authentication works using Back4App.
+The database structure on Back4App.
+The tools used to develop the application (Flutter, Parse SDK, etc.).
+Key challenges and how they were overcome.
+
+Code Upload:
+Upload your complete code to GitLab/GitHub and provide the repository link in your assignment submission.
+Ensure the code is well-commented and follows best practices.
+
+Demo Video:
+Record a 2-minute demo video showcasing:
+The app in action, demonstrating the login page, frontend UI, and CRUD operations.
+Show the login flow (user login and session management).
+Highlight the CRUD operations: adding, updating, deleting, and querying records.
+Upload the demo video to YouTube and share the link in your assignment submission.
+
+Deliverables:
+PowerPoint presentation (2 slides) uploaded to GitLab repository.
+Complete source code uploaded to GitLab repository.
+A 2-minute demo video uploaded to YouTube with a link provided in the GitLab repository.
+
+Evaluation Criteria:
+Back4App Integration:
+Proper setup and use of Back4App APIs for user authentication and CRUD operations.
+Secure management of user sessions using Back4App's built-in user management system.
+
+Flutter Frontend:
+Functional and interactive Flutter app with proper user login, session management, and CRUD operations.
+Form validation for numeric input in the "Age" field and error handling for invalid inputs.
+Clean and user-friendly UI/UX for displaying records and handling CRUD operations.
+
+Code Quality:
+Clean, readable, and well-commented code.
+Proper project structure and adherence to best practices in Flutter.
+Presentation:
+Clear and concise explanation of the app's structure, how it integrates with Back4App, and the user authentication process.
+Demo Video:
+Effective demonstration of the app, showcasing login, CRUD operations, and proper UI/UX.
